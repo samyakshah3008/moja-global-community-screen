@@ -49,6 +49,12 @@ export default function CardSection() {
         <Carousel.Item>
           <CommunityCard />
         </Carousel.Item>
+        <Carousel.Item>
+          <CommunityCard2 />
+        </Carousel.Item>
+        <Carousel.Item>
+          <CommunityCard />
+        </Carousel.Item>
       </Carousel>
     </>
   );
