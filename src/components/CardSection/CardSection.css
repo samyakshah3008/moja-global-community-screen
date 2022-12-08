@@ -1,0 +1,23 @@
+.community-card-section {
+    background-color: var(--background-color-white-theme);
+    height: 40rem;
+}
+
+.community-card-owl-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.position-down {
+    /* position: absolute;
+    top: 7rem; */
+    margin-top: 7rem;
+}
+
+@media only screen and (max-width: 1000px) {
+    .position-down {
+        margin-top: 0;
+    }
+}
